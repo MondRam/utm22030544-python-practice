@@ -18,3 +18,15 @@ while i < len(danguerousAnimals):
     print (danguerousAnimals[i])
     i += 1
 print ("******************")
+
+#dictionary with 3 properAes, modify any of those and print it.
+
+print ("Next I will show some of my personal information")
+mont = {"age": 20, "pets": 3, "name": "Montserrat"}
+mont["age"] = 19
+
+print ("Name: ", mont["name"])
+print ("Age: ", mont["age"])
+print ("Pets: ", mont["pets"])
+
+print ("******************")
